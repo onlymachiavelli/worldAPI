@@ -9,7 +9,7 @@ const countryRouter = Router()
 countryRouter.get("/",GetAll)
 countryRouter.get("/by",Filter)
 countryRouter.post("/",Create)
-countryRouter.post("/list",CreateList)
+//countryRouter.post("/list",CreateList)
 
 
 
