@@ -18,16 +18,13 @@
     "body": "^5.1.0",
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
-    "date-and-time": "^2.4.1",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^5.6.0",
     "mongoose": "^7.2.2",
     "parser": "^0.1.4",
-    "pg": "^8.8.0",
-    "ts-node": "^10.9.1",
-    "typeorm": "^0.3.10"
+    "ts-node": "^10.9.1"
   },
   "devDependencies": {
     "@types/jsonwebtoken": "^8.5.9"
