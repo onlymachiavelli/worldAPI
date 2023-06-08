@@ -56,7 +56,7 @@ myAPI().then(
 ```
  <hr/>
  
-   <h2>Get country Data by index Like countryName, iso2/iso3  JSON OBJECT</h2>
+   <h2>Get country Data by index Like countryName, iso1/iso2  JSON OBJECT</h2>
   
 ```tsx
 const myAPI = async (index, data) => {
@@ -80,7 +80,7 @@ const myAPI = async (index, data) => {
   }
 )
 ```
-  <h3>Calling It (by iso2)</h3>
+  <h3>Calling It (by iso1)</h3>
 
 ```tsx
 myAPI("iso1", "MA").then(
@@ -90,7 +90,7 @@ myAPI("iso1", "MA").then(
 )
 ```
   
-  <h3>Calling It (by iso3)</h3>
+  <h3>Calling It (by iso2)</h3>
 
 ```tsx
 myAPI("iso2", "MAR").then(
