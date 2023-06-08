@@ -2,7 +2,7 @@ import express from "express"
 import "dotenv/config"
 import { json } from "body-parser"
 import Connect from "./utils/MongoConnect"
-
+import countryRouter from "./routes/countryRoute"
 const cors = require("cors")
 
 const app = express()
@@ -16,6 +16,7 @@ app
     console.log(`Listening on ${PORT}`)
     Connect().then(res=>{
       //connected to mongoose
+      app.use("/", countryRouter)
     }).catch(e=>{
       console.log(e)
     })
