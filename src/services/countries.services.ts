@@ -19,8 +19,7 @@ const Delete = async (target : any) =>{
     return deleted
 }
 const GetAll = async () =>{
-    const all = await Countries.find()
-    return all
+    return await Countries.find()
 }
 
 const Filter = async (field : any, target : any) =>{
